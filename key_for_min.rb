@@ -3,7 +3,7 @@
 
 def key_for_min_value(name_hash)
   value_array = []
-  value_array << name_hash.each.collect do |key, value|
+  value_array << name_hash.each do |key, value|
     value
   end
   number = value_array.max
