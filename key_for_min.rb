@@ -8,7 +8,7 @@ def key_for_min_value(name_hash)
   end
   number = value_array.max
   value_array.each.collect do |value|
-    while value < number
+    while value.split < number
       number = value
     end
   end
