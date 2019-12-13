@@ -1,5 +1,5 @@
 
-def key_for_min_value(hash)
+def key_for_min_value(name_hash)
 
 number = 0 
 key = nil
